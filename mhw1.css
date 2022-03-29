@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;  
+}
+
+
+#intestazione {
+background-image: url(intro.jpg);
+background-size: cover;
+background-position: center;
+height: 500px;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+h1 {
+color:rgb(0, 60, 255);
+font-size:3em;
+max-width: 600px;
+max-height: 70px;
+line-height: 50px;
+font-weight: 10px;
+
+
+}
+
+#links{
+    font-style:oblique;
+    text-transform:inherit;
+    border-left: 40px solid brown;
+    border-right: 40px solid brown;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 10px;
+   
+
+    }
+ a{
+    font-weight: bold;
+    font-size: 24px;
+    background-color:brown;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+   
+    
+ #anonimo {
+        position:absolute;
+        top: 450px;
+        border-radius: 100px;
+        }
+ #Nome {
+   position: absolute;
+   top:620px;
+   font-size: large;
+ }       
+ #aggiornamento {
+    position: absolute;
+    top:650px;
+    font-size: large;
+    
+  }       
+
+  footer{
+    display: flex;
+    background: rgb(55, 66, 116) ;
+    color:white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+  }
+
+  section{
+      margin: 200px 50px;
+  }
+  #Indice1 {
+    font-style: oblique;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(26,26,26,.9);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+  }
+  #Indice2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(26,26,26,.9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+  } #Indice3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(26,26,26,.9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+  } #Indice4 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(26,26,26,.9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+  } #Indice5 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgba(26,26,26,.9);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+  }
+
+  #overlay  {
+  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+  
+  
+  #linea {
+    height: 3 px;
+    border: 10px solid rgb(55, 66, 116);
+
+  }
+  #imgSezione {
+      max-width: 200px;
+      max-height: 200px;
+      min-height: 200px;
+      min-width: 200px;
+        
+
+       }
+
+#flex-container {
+         display: flex; 
+         flex-direction:column;
+          align-items: center;
+        
+        }
+        .flex-item {
+            background-color:rgba(0, 0, 100, 0.1);
+            color:rgb(15, 38, 112);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+        }
+
+                
+        
